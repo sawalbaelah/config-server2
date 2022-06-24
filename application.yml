@@ -3,9 +3,9 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://getdata.my.id:8761/eureka/
-  instance:
-    hostname: localhost
+      defaultZone: http://getdata.my.id:8761/eureka
+  #instance:
+   # hostname: localhost
     
     
 microservice:
